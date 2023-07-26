@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+// 1, 2 and 3 are field orders
+message StarRequest {
+  int64  car_id = 1;
+  string driver_id = 2;
+  repeated string passenger_ids = 3;
+}
